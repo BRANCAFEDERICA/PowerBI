@@ -1,0 +1,62 @@
+Descrivere la struttura dei dati e le trasformazioni applicate:
+
+- Origine: Si carica un file Excel e si identifica il foglio di lavoro "Ordini".
+
+- Promozione delle intestazioni: Le prime righe vengono utilizzate come nomi delle colonne.
+
+- Trasformazioni di tipo: Si specifica il tipo di dati per ogni colonna.
+
+- Rimozione di colonne e righe vuote: Colonne non necessarie vengono eliminate e vengono rimosse le righe vuote.
+
+- Pulizia del testo: Vengono applicate operazioni di pulizia e formattazione del testo per alcune colonne.
+
+- Operazioni di filtraggio e ordinamento: Vengono filtrate le righe per un collaboratore specifico e ordinato il risultato.
+
+- Creazione di nuove colonne: Vengono calcolati nuovi valori per alcune colonne, come il totale e l'IVA.
+
+- Manipolazione delle colonne: Vengono rinominate e combinate alcune colonne per formare nuovi attributi.
+
+- Aggiunta di valori condizionali: Viene aggiunta una colonna che indica se la quantità è maggiore di 20.
+
+- Pulizia e formattazione finale: Viene applicata una formattazione finale al testo e ai valori.
+
+
+La struttura dei dati dopo queste trasformazioni include le seguenti entità e campi:
+
+Entità:
+- Ordini
+
+Campi:
+
+- Codice Prodotto
+- Collaboratore
+- Regione
+- Data Ordine
+- Categoria
+- Prodotto
+- Prezzo Unitario
+- Quantità
+- Totale
+- IVA
+- CATPROD (Combinazione di Categoria e Prodotto)
+- Area
+
+Chiavi primarie:
+
+- Cod Prodotto
+
+Tipologia dei dati:
+
+- Codice Prodotto: Testo
+- Collaboratore: Testo
+- Regione: Testo
+- Data Ordine: Data
+- Categoria: Testo
+- Prodotto: Testo
+- Prezzo Unitario: Valuta
+- Quantità: Numero intero
+- Totale: Valuta
+- IVA: Valuta
+- CATPROD: Testo
+- Area: Testo
+
